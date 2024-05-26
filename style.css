@@ -1,0 +1,88 @@
+html {
+    background-color: aliceblue;
+    padding: 0;
+    margin: 20px;
+    box-sizing: border-box;
+  }
+body {
+  margin:0;
+}
+  header {
+    height: 70px;
+    background-color: white;
+    padding: 2em 0 2em 0;
+  }
+  main {
+    background-color: white;
+  }
+  header ul {
+    float: right
+  }
+
+  header ul li {
+    padding:24px;
+    display: inline-block;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  header ul li a {
+    transition: 0,3s;
+  }
+  
+  header ul li a:hover {
+    background-color: aliceblue;
+    color:rgb(231, 48, 48)
+  }
+  .section {
+    margin: 20px;
+  }
+  .container {
+    width: 800px;
+  }
+  .sidebar { 
+    float: left;
+  }
+  .sidebar img {
+    height: 200px;
+    border-radius: 50%;
+  }
+  .sidebar button {
+    float:left;
+  }
+  .content {
+    float: left;
+    width: 240px;
+    padding: 0px 50px;
+    box-sizing: border-box;
+  }
+  .sidebar {
+    float:left
+  }
+  .form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 80px;
+    margin-top: 20px;
+  }
+  
+  form input {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  form input[type="submit"] {
+    margin: 0;
+    background-color: rgb(6, 65, 6);
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .foother {
+    display: flex;
+  }
+  
+  
